@@ -77,6 +77,10 @@
 | Quiero | Recibir puntos cuando utilice rutas con menor impacto ambiental |
 | Para | Sentirme motivado a contaminar menos |
 
+Por cada viaje completado exitosamente (por la ruta menos contaminada) se le agregan 1 punto. llegados a los 5 puntos puede participar en una rifa o guardarlos para reclamar cupones como: 50%OFF en cualquier tienda de mayorca con 30 puntos, 1 helado pequeño gratis en Mcdonals con 10 puntos entre otras más.
+Si te despazas en un vehiculo que usa Diésel o gasolina, unicamente serán 1 punto por recorrido, si usas gas natural(GNV) se te otorga 1.5 puntos.
+Si es electrico,vas a pié o en bicicleta SIN asistencia, son 3.5 puntos.
+
 **8.**
 
 |     |     |
@@ -119,7 +123,7 @@ Requisito Funcional (RF)
 | Campo | Descripción |
 | ID  | RF-01 |
 | HU Relacionada | HU-01, HU-10 |
-| Descripción | El sistema debe permitir consultar la calidad del aire de cualquier zona del Valle de Aburrá. |
+| Descripción | El sistema debe permitir consultar la calidad del aire de cualquier en itagüí. |
 
 **2.**
 
@@ -247,6 +251,13 @@ Requisito Funcional (RF)
 | HU Relacionada | HU-06, HU-07 |
 | Descripción | El sistema debe permitir el registro e inicio de sesión de usuarios. |
 
+**16**
+
+| ID    | Requerimiento Funcional    | Descripción                                                                                                                                 |
+| ----- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| RF-01 | Registro de rutas alternas | El sistema permitirá a los ciudadanos registrar y compartir rutas alternas que eviten zonas con altos niveles de contaminación atmosférica. |
+
+
 Requerimientos No Funcionales (RNF)
 
 **1.**
@@ -266,7 +277,7 @@ Requerimientos No Funcionales (RNF)
 | Campo | Descripción |
 | ID  | RNF-02 |
 | Categoría | Usabilidad |
-| Descripción | La interfaz debe ser fácil de usar para cualquier ciudadano. |
+| Descripción | La interfaz debe permitir una interacción clara y sencilla para cualquier ciudadano. |
 | Métrica | 80% de usuarios completan tareas sin ayuda |
 
 **3.**
@@ -336,7 +347,7 @@ Requerimientos No Funcionales (RNF)
 | Campo | Descripción |
 | ID  | RNF-09 |
 | Categoría | Portabilidad |
-| Descripción | Debe operar únicamente en el Valle de Aburrá. |
+| Descripción | Debe operar únicamente en itagüí. |
 | Métrica | Cobertura limitada a la región |
 
 **10.**
