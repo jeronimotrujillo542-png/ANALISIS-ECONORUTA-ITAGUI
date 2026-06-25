@@ -159,7 +159,7 @@ Requisito Funcional (RF)
 | Campo | Descripción |
 | ID  | RF-05 |
 | HU Relacionada | HU-02, HU-08 |
-| Descripción | El sistema debe identificar zonas con altos niveles de contaminación atmosférica. |
+| Descripción | El sistema debe identificar zonas con altos niveles de contaminación atmosférica en las zonas urbanas y rurales. |
 
 **6.**
 
@@ -168,7 +168,7 @@ Requisito Funcional (RF)
 | Campo | Descripción |
 | ID  | RF-06 |
 | HU Relacionada | HU-02 |
-| Descripción | El sistema debe generar alertas al acercarse a zonas altamente contaminadas. |
+| Descripción | El sistema debe generar alertas al acercarse a zonas altamente contaminadas con un semáforo ambiental que indique el nivel de calidad del aire mediante colores: verde (buena), amarillo (moderada) y rojo (mala).. |
 
 **7.**
 
@@ -186,7 +186,7 @@ Requisito Funcional (RF)
 | Campo | Descripción |
 | ID  | RF-08 |
 | HU Relacionada | HU-05 |
-| Descripción | El sistema debe comparar rutas según su nivel de contaminación. |
+| Descripción | El sistema debe comparar rutas según su nivel de contaminación y mostrar que tipo de vehiculos circulan más por dicha ruta. |
 
 **9.**
 
@@ -222,7 +222,7 @@ Requisito Funcional (RF)
 | Campo | Descripción |
 | ID  | RF-12 |
 | HU Relacionada | HU-06 |
-| Descripción | El sistema debe mostrar estadísticas ambientales del usuario. |
+| Descripción | El sistema debe mostrar estadísticas diarias ambientales del usuario. |
 
 **13.**
 
@@ -249,13 +249,27 @@ Requisito Funcional (RF)
 | Campo | Descripción |
 | ID  | RF-15 |
 | HU Relacionada | HU-06, HU-07 |
-| Descripción | El sistema debe permitir el registro e inicio de sesión de usuarios. |
+| Descripción | El sistema debe permitir el registro, inicio de sesión de usuarios, consultarlos y modificarlos. |
 
 **16**
 
 | ID    | Requerimiento Funcional    | Descripción                                                                                                                                 |
 | ----- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| RF-01 | Registro de rutas alternas | El sistema permitirá a los ciudadanos registrar y compartir rutas alternas que eviten zonas con altos niveles de contaminación atmosférica. |
+| RF-15 | Registro de rutas alternas | El sistema permitirá a los ciudadanos registrar y compartir rutas alternas que eviten zonas con altos niveles de contaminación atmosférica. |
+
+**17**
+
+| ID    | Requerimiento Funcional | Descripción                                                                                                                                            |
+| ----- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| RF-17 | Semáforo ambiental      | El sistema mostrará un semáforo ambiental que indique el nivel de calidad del aire mediante colores: verde (buena), amarillo (moderada) y rojo (mala). |
+
+**18**
+
+| ID    | Requerimiento Funcional     | Descripción                                                                                                                                                                                                              |
+| ----- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| RF-18 | Estimación de contaminación | El sistema calculará una estimación del nivel de contaminación generado por un recorrido, considerando el tipo de vehículo (Diésel, Gasolina, Gas Natural Vehicular o Eléctrico) y la cantidad de kilómetros recorridos. |
+
+
 
 
 Requerimientos No Funcionales (RNF)
@@ -267,7 +281,7 @@ Requerimientos No Funcionales (RNF)
 | Campo | Descripción |
 | ID  | RNF-01 |
 | Categoría | Disponibilidad |
-| Descripción | La aplicación debe estar disponible para consulta de información ambiental. |
+| Descripción | La aplicación debe estar disponible 24/7 los 365 dias del año para consulta de información ambiental. |
 | Métrica | 95% del tiempo |
 
 **2.**
@@ -300,6 +314,8 @@ Requerimientos No Funcionales (RNF)
 | Descripción | Los datos deben provenir de fuentes confiables. |
 | Métrica | 100% de datos desde IQAir, WAQI o IDEAM |
 
+
+
 **5.**
 
 |     |     |
@@ -307,8 +323,8 @@ Requerimientos No Funcionales (RNF)
 | Campo | Descripción |
 | ID  | RNF-05 |
 | Categoría | Portabilidad |
-| Descripción | La aplicación debe funcionar en dispositivos móviles. |
-| Métrica | Compatible con Android |
+| Descripción | La aplicación debe de ser visible para cuál quier dispositivo en cualquier sistema operativo. |
+| Métrica | Compatible con todos los sistemas operativos |
 
 **6.**
 
@@ -357,7 +373,7 @@ Requerimientos No Funcionales (RNF)
 | Campo | Descripción |
 | ID  | RNF-10 |
 | Categoría | Seguridad |
-| Descripción | Debe proteger la información de los usuarios. |
+| Descripción | El sistema deberá contar con un nivel de seguridad medio que garantice la protección de los datos de los usuarios y evite accesos no autorizados.. |
 | Métrica | Acceso solo mediante autenticación |
 
 **11.**
